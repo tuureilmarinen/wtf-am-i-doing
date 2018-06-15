@@ -23,5 +23,5 @@ $ git commit -am"`wtf-am-i-doing`"
 
 ## License
 
-MIT &copy; [Rishi Giri](http://rishigiri.ml)
+MIT &copy;
 
