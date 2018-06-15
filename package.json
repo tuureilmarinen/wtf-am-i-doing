@@ -5,9 +5,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuureilmarinen/wtfcommits.git"
+    "url": "git+https://github.com/tuureilmarinen/wtf-am-i-doing.git"
   },
-  "author": "Tuure Ilmarinen (iltu@cs.helsinki.fi)",
+  "author": "Tuure Ilmarinen (tuure.ilmarinen@outlook.com)",
   "bin": {
     "wtf-am-i-doing": "cli.js"
   },
@@ -40,8 +40,8 @@
     "esnext": true
   },
   "bugs": {
-    "url": "https://github.com/tuureilmarinen/wtfcommits/issues"
+    "url": "https://github.com/tuureilmarinen/wtf-am-i-doing/issues"
   },
-  "homepage": "https://github.com/tuureilmarinen/wtfcommits#readme",
+  "homepage": "https://github.com/tuureilmarinen/wtf-am-i-doing",
   "main": "cli.js"
 }
