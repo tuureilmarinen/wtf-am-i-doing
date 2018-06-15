@@ -1,21 +1,21 @@
 {
-  "name": "wtfcommits",
+  "name": "wtf-am-i-doing",
   "version": "1.0.0",
-  "description": "Motherfucking commits straight from the goddamn console.",
+  "description": "Motherfucking commits straight from the goddamn console. Now in script friendly format!",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeDotJS/wtfcommits.git"
+    "url": "git+https://github.com/tuureilmarinen/wtfcommits.git"
   },
-  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "author": "Tuure Ilmarinen (iltu@cs.helsinki.fi)",
   "bin": {
-    "wtf": "cli.js"
+    "wtf-am-i-doing": "cli.js"
   },
   "scripts": {
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "cli.js"
   ],
   "engines": {
     "node": ">=4"
@@ -29,7 +29,6 @@
   "dependencies": {
     "got": "^5.7.1",
     "log-update": "^2.0.0",
-    "ora": "^1.3.0",
     "update-notifier": "^2.2.0"
   },
   "devDependencies": {
@@ -41,8 +40,8 @@
     "esnext": true
   },
   "bugs": {
-    "url": "https://github.com/CodeDotJS/wtfcommits/issues"
+    "url": "https://github.com/tuureilmarinen/wtfcommits/issues"
   },
-  "homepage": "https://github.com/CodeDotJS/wtfcommits#readme",
+  "homepage": "https://github.com/tuureilmarinen/wtfcommits#readme",
   "main": "cli.js"
 }
