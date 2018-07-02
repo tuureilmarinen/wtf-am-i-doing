@@ -13,7 +13,7 @@ const url = 'http://whatthecommit.com/index.txt';
 const arg = process.argv[2];
 
 if (arg === '-h' || arg === '--help') {
-	console.log("Usage: wtf\nYour commit is writing checks your merge can't cash.");
+	console.log("Usage: wtf-am-i-doing\nYour commit is writing checks your merge can't cash.");
 	process.exit(1);
 }
 
@@ -25,7 +25,7 @@ dns.lookup('whatthecommit.com', err => {
 });
 
 got(url).then(res => {
-	console.log(res.body);
+	console.log(res.body.trim());
 }).catch(err => {
 	if (err) {
 		console.error("Motherfuck!");
